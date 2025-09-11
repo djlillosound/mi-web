@@ -135,7 +135,7 @@
       </a>
       
       <!-- SoundCloud -->
-      <a href="https://soundcloud.com/tuusuario" target="_blank" 
+      <a href="https://soundcloud.com/djlillosound" target="_blank" 
          class="text-orange-400 hover:text-orange-500 transition">
          <i class="fab fa-soundcloud"></i>
       </a>
@@ -159,6 +159,7 @@
   <script src="js/script.js"></script>
 
 </body>
+
 
 
 
