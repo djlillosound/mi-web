@@ -1,0 +1,22 @@
+/* Archivo: estilo.css */
+
+/* Estilos básicos para la página web */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+
+h1, h2, h3 {
+    color: #333;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
