@@ -1,0 +1,159 @@
+<body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>DJ Lillo SOund</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
+  <!-- Header -->
+  <header class="fixed w-full z-50 bg-gray-950/80 backdrop-blur-sm shadow-md">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+      <h1 class="text-2xl font-bold tracking-wide">DJ Lillo Sound</h1>
+      <nav class="space-x-6 hidden md:flex">
+        <a href="#hero" class="hover:text-blue-400 transition">Inicio</a>
+        <a href="#packs" class="hover:text-blue-400 transition">Tarifas</a>
+        <a href="#about" class="hover:text-blue-400 transition">Sobre mí, Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="h-screen flex flex-col justify-center items-center text-center relative bg-gray-900">
+    <!-- Imagen de fondo -->
+    <div class="absolute inset-0">
+      <img src="https://images.unsplash.com/photo-1507874457470-272b3c8d8ee2" 
+           alt="DJ Background" 
+           class="w-full h-full object-cover">
+      <!-- Capa oscura encima -->
+      <div class="absolute inset-0 bg-black/60"></div>
+    </div>
+
+  <!-- Contenido -->
+  <div class="relative z-10">
+    <h2 class="text-6xl md:text-7xl font-extrabold mb-6 text-white">DJ Lillo Sound</h2>
+    <p class="text-xl md:text-2xl text-gray-200 mb-8">Urbano · Tech House · Reggaetón · Trap</p>
+    <a href="#packs" class="px-8 py-3 bg-blue-500 hover:bg-blue-600 rounded-full font-semibold shadow-lg transition">
+      Tarifas
+    </a>
+  </div>
+</section>
+
+  <!-- Packs -->
+  <section id="packs" class="max-w-6xl mx-auto px-6 py-20">
+    <h3 class="text-4xl font-bold mb-12 text-center">Packs de Eventos</h3>
+    
+    <div class="grid md:grid-cols-3 gap-8">
+      
+      <!-- Pack Básico -->
+      <div class="bg-gray-900 rounded-2xl shadow-lg p-8 hover:scale-105 transition text-center">
+        <h4 class="text-2xl font-semibold mb-3">Básico</h4>
+        <p class="text-gray-400 mb-4">Eventos pequeños y privados.</p>
+        <ul class="text-gray-300 mb-6 space-y-2">
+          <li>✔ DJ set de 2h</li>
+          <li>✔ Montaje y desmontaje</li>
+          <li>✔ Sistema de Sonido Propio</li>
+          <li>✔ Sistema de iluminación</li>
+        </ul>
+        <p class="text-3xl font-bold mb-6">100€</p>
+        <a href="https://wa.me/34658675197?text=HHola%20Lillo%20Sound,%20quiero%20información%20del%20Pack%20Básico" 
+        target="_blank"
+        class="px-6 py-3 bg-blue-500 hover:bg-blue-600 rounded-full font-semibold shadow-lg transition">
+       Reservar
+     </a>
+        </a>
+      </div>
+      
+      <!-- Pack Premium -->
+      <div class="bg-gray-900 rounded-2xl shadow-lg p-8 hover:scale-105 transition text-center border-2 border-blue-500">
+        <h4 class="text-2xl font-semibold mb-3">Premium</h4>
+        <p class="text-gray-400 mb-4">La opción más contratada para fiestas.</p>
+        <ul class="text-gray-300 mb-6 space-y-2">
+          <li>✔ DJ set de 4h</li>
+          <li>✔ Montaje y desmontaje</li>
+          <li>✔ Sistema de Sonido Propio</li>
+          <li>✔ Sistema de iluminación + Máquina de humo</li>
+        </ul>
+        <p class="text-3xl font-bold mb-6">175€</p>
+        <a href="https://wa.me/34658675197?text=Hola%20Lillo%20Sound,%20quiero%20información%20del%20Pack%20Premium" 
+       target="_blank"
+       class="px-6 py-3 bg-blue-500 hover:bg-blue-600 rounded-full font-semibold shadow-lg transition">
+      Reservar
+        </a>
+      </div>
+      
+      <!-- Pack Deluxe -->
+      <div class="bg-gray-900 rounded-2xl shadow-lg p-8 hover:scale-105 transition text-center">
+        <h4 class="text-2xl font-semibold mb-3">Deluxe</h4>
+        <p class="text-gray-400 mb-4">Para grandes eventos</p>
+        <ul class="text-gray-300 mb-6 space-y-2">
+          <li>✔ DJ set de 6h</li>
+          <li>✔ Montaje y desmontaje</li>
+          <li>✔ Sistema de Sonido Propio</li>
+          <li>✔ Sistema de iluminación + Máquina de humo</li>
+        </ul>
+        <p class="text-3xl font-bold mb-6">250€</p>
+        <a href="https://wa.me/34658675197?text=Hola%20Lillo%20Sound,%20quiero%20información%20del%20Pack%20Deluxe" 
+       target="_blank"
+       class="px-6 py-3 bg-blue-500 hover:bg-blue-600 rounded-full font-semibold shadow-lg transition">
+      Reservar
+        </a>
+      </div>
+  
+    </div>
+  </section>
+
+  <!-- Sobre mí -->
+  <section id="about" class="bg-gray-900 py-20">
+    <div class="max-w-5xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <img src="img/foto1.jpg" alt="DJ Lillo en acción"  class="rounded-2xl shadow-lg mx-auto" style="width: 375px; height: auto;">
+      <div>
+        <h3 class="text-4xl font-bold mb-6">Sobre mí</h3>
+        <p class="text-gray-300 leading-relaxed mb-6">
+          Soy DJ Lillo Sound, especializado en música urbana, reggaetón, trap y tech house.  
+          Con experiencia en eventos privados, me encargo de animar tu evento quitándote la preocupación de contratar una empresa para sonido e iluminación, yo me encargo de todo. 
+          Mi objetivo es transformar cada set en una experiencia única.  
+          Mezclo estilos para conectar con la gente y mantener la energía de principio a fin.
+        </p>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contact" class="max-w-4xl mx-auto px-6 py-20 text-center">
+    <h3 class="text-4xl font-bold mb-6">Contacto</h3>
+    <p class="text-gray-400 mb-8">¿Quieres reservarme para tu evento? Escríbeme directamente:</p>
+    <div class="flex justify-center space-x-6 text-3xl">
+      <!-- Instagram -->
+      <a href="https://instagram.com/21pabloo" target="_blank" 
+         class="text-pink-500 hover:text-pink-600 transition">
+         <i class="fab fa-instagram"></i>
+      </a>
+      
+      <!-- SoundCloud -->
+      <a href="https://soundcloud.com/tuusuario" target="_blank" 
+         class="text-orange-400 hover:text-orange-500 transition">
+         <i class="fab fa-soundcloud"></i>
+      </a>
+      
+      <!-- WhatsApp -->
+      <a href="https://wa.me/34658675197?text=Hola%20Lillo%20Sound!" target="_blank" 
+         class="text-green-500 hover:text-green-600 transition">
+         <i class="fab fa-whatsapp"></i>
+      </a>
+    </div>
+
+  <!-- Footer -->
+  <footer class="bg-gray-950 py-6 text-center text-gray-500">
+    <p>&copy; 2025 DJ Lillo Sound · Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
+
+  <script src="js/script.js"></script>
+</body>
