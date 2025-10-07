@@ -153,24 +153,18 @@
   <footer class="bg-gray-950 py-6 text-center text-gray-500">
     <p>&copy; 2025 DJ Lillo Sound · Todos los derechos reservados</p>
   </footer>
-
+<script>
+(function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="UPCrVKm9XD9-kuAmi_i9b";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+</script>
 </body>
 </html>
 
-
-
-
-
-
-
-
-</body>
-</html>
 
 
   <script src="js/script.js"></script>
 
 </body>
+
 
 
 
